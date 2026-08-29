@@ -4,9 +4,8 @@ name: Java CI with Maven-self-hosted_runner
 
 on:
   push:
-    branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
+    branches: [ "develop" ]
+  
 
 jobs:
   build:
