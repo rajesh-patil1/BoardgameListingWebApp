@@ -19,3 +19,6 @@ jobs:
       run: mvn test
     - name: Build with Maven
       run: mvn package 
+    - name: Download a Build Artifact
+      uses: actions/download-artifact@v3.1.0
+ 
