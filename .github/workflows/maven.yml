@@ -23,6 +23,6 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
        name: artifact
-       path: path/to/artifact/world.txt
+       path: target
     
  
